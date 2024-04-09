@@ -32,9 +32,7 @@ while True:
 
   if palavra_formada == palavra_secreta:
     os.system("cls")
-    print(f'Parabéns! Você acertou todas as letras! \nA palavra é: '\
-          f'{palavra_formada.capitalize()}. \nVocê acertou em {contagem_tentativas}'\
-            'x tentativas')
+    print(f'Parabéns! Você acertou todas as letras! \nA palavra é: \'{palavra_formada.capitalize()}. \nVocê acertou em {contagem_tentativas}x tentativas')
     contagem_tentativas = 0  
     palavra_formada = '*' * len(palavra_secreta)
     continue
